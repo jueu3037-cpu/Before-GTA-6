@@ -1,0 +1,183 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOXqSSX8vmLf9OB//ORFgNV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jueu3037-cpu/Before-GTA-6/blob/main/name\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5iLFza9vd0-y",
+        "outputId": "bb7eef32-221e-4431-cc79-f6ccb20c1a90"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o comptimento:5\n",
+            "Digite a altura:4\n",
+            "o total da área é :20.0 metros quadrados\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Entrada\n",
+        "\n",
+        "lado1 = float (input(\"Digite o comptimento:\"))\n",
+        "lado2 = float (input(\"Digite a altura:\"))\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "area = lado1 * lado2\n",
+        "\n",
+        "# Saída\n",
+        "\n",
+        "print (f\"o total da área é :{area} metros quadrados\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Escrever um programa que calcula o dobro de um numero."
+      ],
+      "metadata": {
+        "id": "OcrEJV_ehM6u"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Entrada\n",
+        "\n",
+        "numero = int(input(\"Digite um número:\"))\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "dobro = numero + numero\n",
+        "\n",
+        "# Saída\n",
+        "\n",
+        "print (f\"o dobro do número {numero} e igual a : {dobro}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YUaoh95PkDLb",
+        "outputId": "a044b774-c35a-4bdf-915b-de7bc6d7ae14"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número:14\n",
+            "o dobro do número 14 e igual a : 28\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um programa que o usuário irá entrar entrar com 04 notas, vamos calcular a média e mostrar e mostrar o usuário a média."
+      ],
+      "metadata": {
+        "id": "pzni-NwhlboN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "FhlOoq7Imafp"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Nota1 = float(input(\"Digite a Nota do primeiro bimestre\"))\n",
+        "Nota2 = float(input(\"Digite a Nota do segundo bimestre\"))\n",
+        "Nota3 = float(input(\"Digite a Nota do terceiro bimestre\"))\n",
+        "Nota4 = float(input(\"Digite a Nota do quarto bimestre\"))\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "Média = (Nota1 + Nota2 + Nota3 + Nota4) / 4\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "print (f\"A media do aluno é igual a: {Média}\")\n"
+      ],
+      "metadata": {
+        "id": "B8FbGhhYnqjh"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um cadastro simples de usuário.\n",
+        "\n",
+        "Objetivo: Usuar string (str)\n",
+        "\n",
+        "Lógica\n",
+        "\n",
+        "Entrada: nome e idade Processamento : armazenar Saída: Exibir uma mensagem (olá(nome), você tem x anos d"
+      ],
+      "metadata": {
+        "id": "ZMluW3w5mj_K"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Entrada\n",
+        "\n",
+        "nome = str(input(\"Digite o seu nome:José\"))\n",
+        "idade = int(input(\"Digite a sua idade:14\"))\n",
+        "\n",
+        "#saída\n",
+        "\n",
+        "print (f\"Olá) {nome}\")\n",
+        "print (f\"Olá {idade} anos\")"
+      ],
+      "metadata": {
+        "id": "L-uzpWU6r3om"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
