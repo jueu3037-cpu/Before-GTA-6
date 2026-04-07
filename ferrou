@@ -1,0 +1,203 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMnPrw//TnDu3jmuxEweYl0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jueu3037-cpu/Before-GTA-6/blob/main/ferrou\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "tCh8cxL0pTzU",
+        "outputId": "92806cbe-b641-46c0-f067-409c8c38d046"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (426724754.py, line 17)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2858/426724754.py\"\u001b[0;36m, line \u001b[0;32m17\u001b[0m\n\u001b[0;31m    if 12> 18> 18<:\u001b[0m\n\u001b[0m                  ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "# escrever um programa que o usuário digita o nome e a idade:\n",
+        "\n",
+        "# identificar se o usúario é criança, adolescente ou adulto.\n",
+        "\n",
+        "# saida (você é ....)\n",
+        "\n",
+        "# > 12 criança\n",
+        "# > 18 adolescente\n",
+        "# < 18 adulto\n",
+        "\n",
+        "idade1 = int(input(\"digite o primeira idade: \"))\n",
+        "idade2 = int(input(\"digite o segunda idade: \"))\n",
+        "idade3 = int(input(\"digite o terceira idade: \"))\n",
+        "\n",
+        "#processamento e saída\n",
+        "\n",
+        "if 12> 18> 18<:\n",
+        "  print(f\"a idade {12>} é menor que a idade {18>} e {18<}.\")\n",
+        "\n",
+        "elif idade3 > idade2 > idade1:\n",
+        "  print(f\"a idade {18<} é maior que a idade {18>} e {12>}.\")\n",
+        "\n",
+        "else:\n",
+        "  print(f\" criança : {}, adolescente: {18>}, adulto: {18<}.\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "questão 3"
+      ],
+      "metadata": {
+        "id": "-rc6DpqE1wZw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Lado1 = 2\n",
+        "Lado2 = 3\n",
+        "Lado3 = 2\n",
+        "\n",
+        "# Cáuculo da área\n",
+        "\n",
+        "area = Lado1 *Lado2 *Lado3\n",
+        "\n",
+        "# cáuculo da área de um triângulo\n",
+        "\n",
+        "areatriângulo = Lado1 *Lado2 *Lado1\n",
+        "\n",
+        "print (area)\n",
+        "\n",
+        "print (areatriângulo)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3TDAVjeHypxL",
+        "outputId": "ddcbe959-d961-46df-d2c3-992c24c8208a"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n",
+            "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mYFzx11N2z_w",
+        "outputId": "13630372-6f36-46cf-dc1d-49cf9118e02d"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (areatriângulo)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GhrAD6L8285-",
+        "outputId": "2b6d1b8f-b9b4-4fda-f1cf-ee11b5b8f3c5"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lado1 = int (input (\"digite um número\"))\n",
+        "lado2 = int (input (\"digite um número\"))\n",
+        "lado3 = int (input (\"digite um número\"))\n",
+        "\n",
+        "Perimetro = lado1 = lado2 = lado3\n",
+        "\n",
+        "print (\"O total da área é igual a: {perimetro}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OqlD6ORB5Uu9",
+        "outputId": "163e66c9-51fa-4577-f5cc-8d68dab6e94f"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um número1\n",
+            "digite um número2\n",
+            "digite um número1\n",
+            "O total da área é igual a: {perimetro} igual a {lado1} e {lado2} e {lado3}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
